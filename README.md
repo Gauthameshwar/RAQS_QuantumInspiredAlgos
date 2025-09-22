@@ -4,7 +4,7 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gauthameshwar/RAQS_QuantumInspiredAlgos/blob/master/notebooks/RSVDnDataCompression.ipynb)
 
-**Further reading (RSVD, TT/TT-SVD, and MPS/DMRG)**
+**Further reading (RSVD, TT/TT-SVD, and MPS)**
 
 - **Randomized SVD (RSVD)** — Halko, Martinsson, Tropp (2011), *SIAM Review*.  
   [Journal page](https://epubs.siam.org/doi/10.1137/090771806) · [arXiv](https://arxiv.org/abs/0909.4061)
@@ -24,7 +24,7 @@
 - **Block-TT eigenvalue methods** — Dolgov, Khoromskij, Oseledets, Savostyanov (2013).  
   [arXiv](https://arxiv.org/abs/1306.2269)
 
-- **MPS/DMRG review (quantum-inspired algorithms)** — Schollwöck (2011), *Annals of Physics*.  
+- **MPS review (quantum-inspired algorithms)** — Schollwöck (2011), *Annals of Physics*.  
   [arXiv](https://arxiv.org/abs/1008.3477) · [Journal page](https://www.sciencedirect.com/science/article/abs/pii/S0003491610001752)
 
 - **Origins of MPS (finitely-correlated states)** — Fannes, Nachtergaele, Werner (1992), *Comm. Math. Phys.*  
@@ -42,3 +42,22 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gauthameshwar/RAQS_QuantumInspiredAlgos/blob/master/notebooks/GroundStateTensorTrains.ipynb)
 
+**Further Reading & References (ITensors.jl, DMRG, Eigensolvers)**
+
+- **DMRG (Density Matrix Renormalization Group)** — Original algorithm and reviews on variational ground-state search in 1D systems.  
+  White, S.R. *Density matrix formulation for quantum renormalization groups*, Phys. Rev. Lett. 69, 2863 (1992). [DOI: 10.1103/PhysRevLett.69.2863](https://doi.org/10.1103/PhysRevLett.69.2863)
+
+- **Iterative eigensolvers** — Krylov methods (Lanczos, Davidson) form the backbone of local optimization in DMRG sweeps.  
+  Saad, Y. *Iterative Methods for Sparse Linear Systems* (book, SIAM 2003). [SIAM link](https://epubs.siam.org/doi/book/10.1137/1.9780898718003)
+
+- **TensorNetworks.org** — Pedagogical tutorials and interactive demos for tensor networks, canonical forms, and algorithms like DMRG/TEBD.  
+  [https://tensornetwork.org](https://tensornetwork.org)
+
+- **ITensors.jl Documentation** — Official Julia ITensor library docs, including examples on MPS/MPO construction and DMRG usage.  
+  [https://itensor.github.io/ITensors.jl/latest](https://itensor.github.io/ITensors.jl/latest)
+
+- **General Tensor Network reviews** — Broad overviews of tensor-network methods in condensed matter and quantum information.  
+  Orús, R. *A practical introduction to tensor networks: Matrix product states and projected entangled pair states*, Ann. Phys. 349, 117 (2014). [DOI: 10.1016/j.aop.2014.06.013](https://doi.org/10.1016/j.aop.2014.06.013)
+
+- **Tutorial notebooks** — A collection of practical Jupyter/Julia tutorials on tensor networks and DMRG.  
+  [https://github.com/ITensor/ITensors.jl/tree/main/examples](https://github.com/ITensor/ITensors.jl/tree/main/examples)
